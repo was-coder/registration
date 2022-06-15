@@ -1,0 +1,112 @@
+.main-container {
+  background: var(--red);
+  background-image: url(../images/bg-intro-mobile.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 170vh;
+}
+
+.text-div {
+  width: 65%;
+}
+
+.amount-div {
+  width: 80%;
+  border-radius: 10px;
+  background: var(--blue);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.amount-div-p {
+  width: 60%;
+  font-weight: 700;
+}
+
+#amount-span {
+  font-weight: 400;
+}
+
+.text-div-p {
+  padding-top: 20px;
+}
+
+#form {
+  width: 80%;
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-control {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  padding-left: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.form-control .success,
+.form-control .error {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.form-control .error-message {
+  font-weight: 500;
+  font-size: 12px;
+  font-style: italic;
+  float: right;
+}
+
+.success .form-input {
+  border-color: var(--green);
+}
+
+.success .success {
+  color: var(--green);
+}
+
+.error .form-input {
+  border-color: var(--red);
+}
+
+.trial-btn {
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px;
+  background: var(--green);
+  border: 2px solid var(--green);
+  color: var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.trial-btn:focus {
+  outline: none;
+}
+
+.form-p {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 13px;
+  width: 80%;
+  color: var(--grayish-blue);
+}
+
+#terms-span {
+  font-weight: 700;
+}

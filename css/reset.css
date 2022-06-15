@@ -1,0 +1,51 @@
+/* This is where general styling are written*/
+
+:root {
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+  --white: #fff;
+  --poppins: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--poppins);
+}
+
+.text-div,
+.amount-div,
+.amount-div-p,
+#form {
+  display: block;
+  margin: 0 auto;
+  color: var(--white);
+  text-align: center;
+}
+
+.form-control .success,
+.form-control .error,
+.form-control .error-message {
+  visibility: hidden;
+}
+
+.error .error,
+.success .success,
+.error .error-message {
+  visibility: visible;
+}
+
+.error .error-message,
+#terms-span {
+  color: var(--red);
+}

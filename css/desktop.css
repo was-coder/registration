@@ -1,0 +1,33 @@
+.main-container {
+  background-image: url(../images/bg-intro-desktop.png);
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+  padding-right: 150px;
+}
+
+.text-div {
+  font-size: 20px;
+  width: 37%;
+  text-align: start;
+}
+
+.text-div p {
+  font-size: 15px;
+}
+
+.amount-div {
+  width: 100%;
+}
+
+.amount-div-p {
+  width: 100%;
+}
+
+#form {
+  width: 100%;
+}
+
+.form-p {
+  width: 100%;
+}
